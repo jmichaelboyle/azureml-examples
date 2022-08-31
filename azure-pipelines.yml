@@ -22,7 +22,7 @@ steps:
 
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'Microsoft Partner Network'
+    azureSubscription: 'aa-dldwsample-centralus-connection'
     scriptType: 'bash'
     scriptLocation: 'inlineScript'
     inlineScript: |
